@@ -1,14 +1,22 @@
 # Task2 - VCL팀
 
-2024.09.11 작성
+### Result
+- 학습 성능
+    - 11 epochs model
+    - Train loss : 1.4363
+    - Learning rate : 0.00005870(CosineAnnealingLR 적용)
+    - Valid loss : 1.4585
+    - ACSA : 0.64833
 
-1. 필요 라이브러리 정보
-2. 사용 코드
-3. 모델 학습 환경
-4. 모델 학습
+- 제출 성능
+    <img src="./img/leaderboard.png" alt="image1"/>
 
-___
+---
 
+### Summary
+<img src="./img/ppt.png" alt="image1"/>
+
+---
 #### 1. 필요 라이브러리 정보
 
 아래의 커맨드를 통해 `requirements.txt` 파일을 생성하였습니다.
@@ -70,7 +78,3 @@ ___
     - model, logs 에 reproduce라는 이름의 버전으로 저희수준에서 재현한 결과를 만들었습니다.
     - logs/reproduce_training.log 를 logs/exp1_training.log 와 비교하여 모든 Epoch 재현이 가능함을 확인할 수 있습니다.
 ___
-
-
-### Leader Board
-<img src="./img/leaderboard.png" alt="image1"/>
